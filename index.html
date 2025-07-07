@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Elid Reyes</title>
+  <meta name="description" content="Portafolio de Elid Reyes, desarrollador y estudiante de Ingeniería de Software. Proyectos, habilidades y contacto.">
+  <meta name="keywords" content="Elid Reyes, portafolio, desarrollador, software, web, proyectos, Colombia, frontend, backend, JavaScript, React, Node.js">
+  <meta property="og:title" content="Portafolio | Elid Reyes">
+  <meta property="og:description" content="Portafolio de Elid Reyes, desarrollador y estudiante de Ingeniería de Software. Proyectos, habilidades y contacto.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/PerfilPhoto.jpeg">
+  <meta property="og:url" content="https://tudominio.com">
+  <meta property="og:site_name" content="Portafolio Elid Reyes">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portafolio | Elid Reyes">
+  <meta name="twitter:description" content="Portafolio de Elid Reyes, desarrollador y estudiante de Ingeniería de Software. Proyectos, habilidades y contacto.">
+  <meta name="twitter:image" content="assets/img/PerfilPhoto.jpeg">
+  <meta name="author" content="Elid Reyes">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0077ff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Elid Reyes">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/favicon.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  
+  <main>
+    <header class="hero" id="hero">
+      <div class="container">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">
+          <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <h1>Elid Reyes</h1>
+        <h2>Desarrollador | Estudiante de Ingeniería de Software</h2>
+        <p class="hero-phrase">Construyo soluciones digitales con código limpio y experiencias increíbles.</p>
+        <div class="hero-actions">
+          <a href="assets/CV-Elid-Reyes.pdf" class="btn" download>Ver CV</a>
+          <a href="#contact" class="btn" id="contact-btn">Contactar</a>
+          <a href="#projects" class="btn">Ver Proyectos</a>
+        </div>
+      </div>
+    </header>
+    <section class="about" id="about">
+      <div class="container about-content">
+        <img src="assets/img/PerfilPhoto.jpeg" alt="Foto de perfil de Elid Reyes sonriendo" class="about-avatar">
+        <div>
+          <h3>Sobre mí</h3>
+          <p>Soy un apasionado desarrollador web y estudiante de Ingeniería de Software, dedicado a crear experiencias digitales funcionales y atractivas. Me encanta aprender nuevas tecnologías y enfrentar desafíos creativos.</p>
+          <div class="about-info-cards">
+            <div class="about-card about-location">
+              <img src="assets/img/ubicacion.png" alt="Icono de ubicación: Bogotá, Colombia" class="about-icon">
+              <span class="about-label">Ubicación</span>
+              <span class="about-value"><b>Bogotá, Colombia</b></span>
+            </div>
+            <div class="about-card about-exp">
+              <img src="assets/img/experiencia.png" alt="Icono de experiencia laboral" class="about-icon">
+              <span class="about-label">Experiencia</span>
+              <span class="about-value"><b>12+ meses</b></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="skills-group">
+          <h3 class="skills-title"><img src="assets/img/frontend.png" class="skills-icon" alt="Icono Frontend"> Frontend</h3>
+          <div class="skills-grid">
+            <div class="skill-card skill-frontend"><img src="assets/img/html5.png" alt="Logo HTML5"/><span>HTML5</span></div>
+            <div class="skill-card skill-frontend"><img src="assets/img/css3.png" alt="Logo CSS3"/><span>CSS3</span></div>
+            <div class="skill-card skill-frontend"><img src="assets/img/js.png" alt="Logo JavaScript"/><span>JavaScript</span></div>
+            <div class="skill-card skill-frontend"><img src="assets/img/react.png" alt="Logo React"/><span>React</span></div>
+            <div class="skill-card skill-frontend"><img src="assets/img/Next.png" alt="Logo Next.js"/><span>Next.js</span></div>
+            <div class="skill-card skill-frontend"><img src="assets/img/tailwind.png" alt="Logo Tailwind CSS"/><span>Tailwind</span></div>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3 class="skills-title"><img src="assets/img/backend.png" class="skills-icon" alt="Icono Backend"> Backend</h3>
+          <div class="skills-grid">
+            <div class="skill-card skill-backend"><img src="assets/img/node.png" alt="Logo Node.js"/><span>Node.js</span></div>
+            <div class="skill-card skill-backend"><img src="assets/img/Express.png" alt="Logo Express.js"/><span>Express</span></div>
+            <div class="skill-card skill-backend"><img src="assets/img/MongoDB.png" alt="Logo MongoDB"/><span>MongoDB</span></div>
+            <div class="skill-card skill-backend"><img src="assets/img/PostgreSQL.png" alt="Logo PostgreSQL"/><span>PostgreSQL</span></div>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3 class="skills-title"><img src="assets/img/herramientas.png" class="skills-icon" alt="Icono Herramientas"> Herramientas</h3>
+          <div class="skills-grid">
+            <div class="skill-card skill-tool"><img src="assets/img/git.png" alt="Logo Git"/><span>Git</span></div>
+            <div class="skill-card skill-tool"><img src="assets/img/github.png" alt="Logo GitHub"/><span>GitHub</span></div>
+            <div class="skill-card skill-tool"><img src="assets/img/VS Code.png" alt="Logo Visual Studio Code"/><span>VS Code</span></div>
+            <div class="skill-card skill-tool"><img src="assets/img/Figma.png" alt="Logo Figma"/><span>Figma</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="container">
+        <h3>Proyectos</h3>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="assets/img/logoYaka.png" alt="Logo del proyecto Yaka, página web de cervezas artesanales">
+            <div class="project-content">
+              <h4 class="project-title">yaka</h4>
+              <p>Proyecto universitario de una Página web de cervezas artesanales completa y funcional para una marca
+                inprovisada.</p>
+              <div class="tech-tags">
+                <span class="tech-tag">Html5</span>
+                <span class="tech-tag">css3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Github</span>
+                <span class="tech-tag">Git</span>
+                <span class="tech-tag">VS Code</span>
+                <span class="tech-tag">Figma</span>
+                
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/elidcillo" class="btn project-btn" target="_blank" aria-label="Ver proyecto Yaka en una nueva pestaña">
+                  <span>Ver Proyecto</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="margin-left:0.5em;vertical-align:middle;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6m5-3h3m0 0v6m0-6L10 14"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="assets/img/vitalscore.png" alt="Logo del proyecto VitalScore, app de salud en Colombia">
+            <div class="project-content">
+              <h4 class="project-title">VitalScore</h4>
+              <p>Aplicación móvil creada con React Native para incentivar la salud en Colombia por medio
+                 de puntos redimibles.</p>
+              <div class="tech-tags">
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Postgress</span>
+                <span class="tech-tag">express</span>
+                <span class="tech-tag">ReactNative</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/elidcillo" class="btn project-btn" target="_blank" aria-label="Ver proyecto VitalScore en una nueva pestaña">
+                  <span>Ver Proyecto</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="margin-left:0.5em;vertical-align:middle;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6m5-3h3m0 0v6m0-6L10 14"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="assets/img/fomnowon.png" alt="Logo del proyecto FromNowOn, web de estudio de film">
+            <div class="project-content">
+              <h4 class="project-title">FromNowOn</h4>
+              <p>Página web para un estudio de film desarrollada en etapa de prácticas para la universidad con codigo limpio y funcional.</p>
+              <div class="tech-tags">
+                <span class="tech-tag">Html5</span>
+                <span class="tech-tag">css3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Github</span>
+                <span class="tech-tag">Git</span>
+                <span class="tech-tag">VS Code</span>
+                <span class="tech-tag">Figma</span>
+                
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/elidcillo" class="btn project-btn" target="_blank" aria-label="Ver proyecto FromNowOn en una nueva pestaña">
+                  <span>Ver Proyecto</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="margin-left:0.5em;vertical-align:middle;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6m5-3h3m0 0v6m0-6L10 14"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <h3>Contacto</h3>
+        <p>¿Te gustaría trabajar conmigo o tienes alguna pregunta? ¡Hablemos!</p>
+        <div class="contact-info">
+          <a href="mailto:ereyesver21@gmail.com" class="contact-email"><img src="assets/img/email.svg" alt="Icono de correo electrónico">ereyesver21@gmail.com</a>
+          <div class="contact-social">
+            <a href="https://github.com/elidcillo" target="_blank"><img src="assets/img/github.png" alt="Logo GitHub"></a>
+            <a href="https://linkedin.com/in/ereyesv21" target="_blank"><img src="assets/img/linkedin.png" alt="Logo LinkedIn"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Hecho con <span class="heart">&#10084;&#65039;</span> desde Colombia</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <!-- Modal de Contacto -->
+  <div class="modal-contact" id="modal-contact">
+    <div class="modal-content">
+      <h2>¡Hablemos!</h2>
+      <p>Puedes contactarme directamente:</p>
+      <a href="mailto:ereyesver21@gmail.com" class="modal-btn email-btn" target="_blank">
+        <img src="assets/img/email.svg" alt="Icono de correo electrónico" class="icon-modal"> ereyesver21@gmail.com
+      </a>
+      <a href="https://linkedin.com/in/ereyesv21" class="modal-btn linkedin-btn" target="_blank">
+        <img src="assets/img/linkedin.png" alt="Logo LinkedIn" class="icon-modal"> LinkedIn
+      </a>
+      <button class="modal-btn close-btn" id="close-modal">Cerrar</button>
+    </div>
+  </div>
+</body>
+</html> 
